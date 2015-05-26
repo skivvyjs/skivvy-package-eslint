@@ -15,7 +15,7 @@ skivvy install eslint
 
 ## Overview
 
-This package allows you to lint JavaScript files using ESLint from within the [Skivvy](https://www.npmjs.com/package/skivvy) task runner.
+This package allows you to lint JavaScript files using [ESLint](http://eslint.org/) from within the [Skivvy](https://www.npmjs.com/package/skivvy) task runner.
 
 
 ## Configuration settings:
