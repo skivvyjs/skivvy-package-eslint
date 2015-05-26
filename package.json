@@ -35,5 +35,13 @@
     "rewire": "^2.3.3",
     "sinon": "^1.14.1",
     "sinon-chai": "^2.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skivvyjs/skivvy-package-eslint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skivvyjs/skivvy-package-eslint/issues"
+  },
+  "homepage": "https://github.com/skivvyjs/skivvy-package-eslint#readme"
 }
