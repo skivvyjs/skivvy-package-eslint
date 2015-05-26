@@ -43,15 +43,15 @@ skivvy run eslint
 | Name | Type | Required | Default | Description |
 | ---- | ---- | -------- | ------- | ----------- |
 | `files` | `string` `Array<string>` | Yes | N/A | Files to lint |
-| `options` | `object` | No | `{}` | [ESLint options](http://eslint.org/docs/developer-guide/nodejs-api) |
+| `options` | `object` | No | `{}` | [ESLint API](http://eslint.org/docs/developer-guide/nodejs-api) options |
 | `options.configFile` | `string` | No | `null` | The configuration file to use |
 | `options.envs` | `Array<string>` | No | `null` | An array of environments to load |
 | `options.extensions` | `Array<string>` | No | `[".js"]` | An array of filename extensions that should be checked for code |
 | `options.globals` | `Array<string>` | No | `[]` | An array of global variables to declare |
-| `options.ignore` | `boolean` | No | `true` | False disables use of `.eslintignore` |
+| `options.ignore` | `boolean` | No | `true` | `false` disables use of `.eslintignore` |
 | `options.ignorePath` | `string` | No | `null` | The ignore file to use instead of `.eslintignore` |
 | `options.reset` | `boolean` | No | `false` | True disables all default rules and environments |
 | `options.baseConfig` | `boolean` `object` | No | `null` | Set to `false` to disable use of base config. Could be set to an object to override default base config as well. |
 | `options.rulePaths` | `Array<string>` | No | `[]` | An array of directories to load custom rules from |
 | `options.rules` | `{}` | No | `null` | An object of rules to use |
-| `options.useEslintrc` | `boolean` | No | `true` | Set to `false` to disable use of `.eslintrc files` |
+| `options.useEslintrc` | `boolean` | No | `true` | Set to `false` to disable use of `.eslintrc` files |
