@@ -1,6 +1,7 @@
 # Skivvy package: `eslint`
 [![npm version](https://img.shields.io/npm/v/@skivvy/skivvy-package-eslint.svg)](https://www.npmjs.com/package/@skivvy/skivvy-package-eslint)
-![Stability](https://img.shields.io/badge/stability-unstable-yellow.svg)
+![Stability](https://img.shields.io/badge/stability-stable-brightgreen.svg)
+[![Build Status](https://travis-ci.org/skivvyjs/skivvy-package-eslint.svg?branch=master)](https://travis-ci.org/skivvyjs/skivvy-package-eslint)
 
 > Lint source files using ESLint
 
