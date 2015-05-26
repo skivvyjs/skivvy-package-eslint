@@ -1,6 +1,6 @@
 {
   "name": "@skivvy/skivvy-package-eslint",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Lint source files using ESLint",
   "main": "index.js",
   "directories": {
