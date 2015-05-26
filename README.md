@@ -27,9 +27,9 @@ This package allows you to lint JavaScript files using ESLint from within the [S
 
 ## Included tasks
 
-### `hello-world`
+### `eslint`
 
-Example task
+Lint source files using ESLint
 
 #### Usage:
 
