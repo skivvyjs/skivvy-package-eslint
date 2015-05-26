@@ -43,7 +43,7 @@ skivvy run eslint
 | Name | Type | Required | Default | Description |
 | ---- | ---- | -------- | ------- | ----------- |
 | `files` | `string` `Array<string>` | Yes | N/A | Files to lint |
-| `options` | `object` | No | `{}` | [ESLint API](http://eslint.org/docs/developer-guide/nodejs-api) options |
+| `options` | `object` | No | `{}` | [ESLint API](http://eslint.org/docs/developer-guide/nodejs-api#cliengine) options |
 | `options.configFile` | `string` | No | `null` | The configuration file to use |
 | `options.envs` | `Array<string>` | No | `null` | An array of environments to load |
 | `options.extensions` | `Array<string>` | No | `[".js"]` | An array of filename extensions that should be checked for code |
